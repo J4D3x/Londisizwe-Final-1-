@@ -1,0 +1,314 @@
+
+header{
+    position: sticky;
+     z-index: 9999 !important;
+}
+body{
+
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    
+}
+main{
+   
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+.backDrop{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.734),rgba(0, 0, 0, 0.305)), url(mountains-9490544.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: 0px  ;
+            display: block;
+            margin: 0;
+            height: 35vh;
+            margin-top: -20px;
+            margin-bottom: 0px;
+            position: left;
+            opacity: 0;
+            transition: opacity 1s ;
+}
+
+.backDrop.show{
+    opacity: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+     background-color: hsl(0, 0%, 18%);
+}
+
+.navbar ul{
+
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    height: 60px;
+    font-size: 13px;
+    
+}
+
+.navbar a{
+    color: white;
+    text-decoration:none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    transition: font-size 0.1s ease-in-out;
+    
+}
+
+.navbar a:hover{
+    
+    font-size: 14.5px;
+    color:  hsl(29, 100%, 79%);
+    
+}
+.navbar a:active{
+    font-size: 14.5px;
+    color: rgb(255, 177, 50);
+
+}
+.navbar li{
+    
+    float: left;
+}
+#changer a{
+     color: hsla(39, 100%, 50%, 0.898);
+}
+
+#yebo {
+   
+    
+   
+    display: flex;
+    justify-content: center;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-bottom: 20px;
+    height: 150px;
+    background-color: hsl(0, 0%, 100%);
+   
+
+}
+
+.subheading{
+    margin-top: 30px;
+    font-family: Arial;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    background-color:  rgb(222, 202, 175/50%);
+    font-size: 50px;
+}
+
+#londi{
+    color: antiquewhite;
+    font-size: 60px;
+    font-family: Georgia;
+    text-align: right;
+}
+
+
+#containerB{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.6s ;
+    transition-delay: 0.6s;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(60, 60, 60);
+    animation-name: popUp;
+     animation-duration: 0.6s;
+     animation-delay: 0.6s;
+    
+     
+}
+#containerB.show{
+    opacity: 1;
+}
+
+#containerC{
+    background-color: transparent(42, 42, 42, 0);
+    text-align: center;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(244, 244, 244);
+    padding-left: 60px ;
+    padding-right: 60px ;
+    
+}
+#containerC.show{
+     background-color: rgb(42, 42, 42);
+     animation-name: popUp;
+    animation-duration: 0.6s;
+
+    opacity: 1;
+}
+
+
+
+#containerD{
+    background-color:transparent rgb(15, 15, 15);
+    text-align: center;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(244, 244, 244);
+    padding-left: 60px ;
+    padding-right: 60px ;
+
+}
+#containerD.show{
+     background-color: rgb(15, 15, 15);
+    opacity: 1;
+    animation-name: popUp;
+
+    animation-duration: 0.6s;
+}
+
+#containerE{
+    background-color:transparent rgb(15, 15, 15);
+    text-align: center;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    padding-left: 50px ;
+    padding-right: 50px ;
+     border-bottom: solid 10px white;
+     
+}
+#containerE.show{
+    background-color: rgb(56, 56, 56);
+    opacity: 1;
+    animation-name: popUp;
+
+    animation-duration: 0.6s;
+}
+
+#containerE img:hover{
+    transform: scale(1.02);
+}
+
+
+
+@keyframes popUp{
+    from{transform: scale(0.5);}
+}
+
+#bunhle{
+    margin-top: 20px;
+    font-size: 20px;
+    display: inline-block;
+    text-align: left;
+    border-bottom: solid 2px rgba(255, 166, 0, 0.457);
+    border-right: solid 2px rgba(255, 166, 0, 0.457);
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(124, 124, 124);
+}
+#containerC img{
+    margin: 10px;
+    box-shadow: 0px 0px 10px black;
+    text-align: right;
+}
+
+
+.animation1{
+ 
+    font-size: 70px; 
+    color: hsla(0, 0%, 100%, 0.874); 
+    margin-top: 20px; 
+    margin-left: 15px;
+     overflow: hidden;
+
+
+}
+.animation2{
+    animation-name: slideLeftRight2;
+    animation-duration: 1s;
+    font-size: 40px; 
+    color:hwb(0 100% 0% / 0.716);
+     margin-top: -80px;
+     margin-left: 15px
+
+}
+
+
+@keyframes slideLeftRight{
+
+    from{transform:  translateX(+10px);}
+
+}
+@keyframes slideLeftRight2{
+
+    from{transform:  translateY(-50px);}
+}
+
+/* footer */
+
+@keyframes footer_Ani{
+    from{ transform: translateY(200px);}
+}
+.bottomMenu.show{
+    animation-name: footer_Ani ;
+    animation-duration: 2s;
+    opacity: 1;
+}
+.bottomMenu{
+   background-color: rgba(0, 0, 0, 0);
+    padding: 30px; 
+    margin: 20px;
+    z-index: 9995;
+    opacity: 0;
+    
+}
+.bottomMenu  i{
+    margin-top: 50px;
+    margin-left: 10px;
+    color: rgba(255, 166, 0, 0.488);
+    font-size: 20px;
+    
+}
+.bottomMenu i:hover{
+    color: rgb(255, 157, 0);
+    transform: scale(1.2);
+    
+}
+
+.bottomMenu i:active{
+    color: rgb(255, 202, 116);
+    transform: scale(1.5);
+    text-shadow: 0px 0px 7px orange;
+}
+.bottomMenu {
+    margin-bottom: -10px;
+    
+}
+#menuDown{
+    font-size: 25px;
+    color: rgb(255, 115, 0);
+}
+footer{
+    margin-top: -20px;
+}
+
+

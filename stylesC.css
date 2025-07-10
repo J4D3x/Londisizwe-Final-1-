@@ -1,0 +1,233 @@
+
+header{
+    position: sticky;
+    z-index: 9999 !important
+}
+
+body{
+  /*  background-image: url(construction-workers-sunset.jpg);*/
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+
+
+.navbar{
+   display: flex;
+    justify-content: center;
+     background-color: hsl(0, 0%, 18%);
+}
+
+.navbar ul{
+
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    height: 60px;
+    font-size: 13px;
+    
+}
+
+.navbar a{
+    color: white;
+    text-decoration:none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    transition: font-size 0.1s ease-in-out;
+    
+}
+
+.navbar a:hover{
+    
+    font-size: 14.5px;
+    color:  hsl(29, 100%, 79%);
+    
+}
+.navbar a:active{
+    font-size: 14.5px;
+    color: rgb(255, 177, 50);
+
+}
+.navbar li{
+    
+    float: left;
+}
+#changer a{
+     color: hsla(39, 100%, 50%, 0.898);
+}
+#yebo{
+   
+    display: flex;
+    justify-content: center;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-bottom: 20px;
+    height: 150px;
+    background-color: hsl(0, 0%, 100%);
+   
+}
+
+
+.backDrop{
+            background-image: linear-gradient( rgba(0, 0, 0, 0.734),rgba(0, 0, 0, 0.305)), url(2148430879.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position: 0px  ;
+            display: block;
+            margin: 0;
+            height: 35vh;
+            margin-top: -20px;
+            margin-bottom: 13px;
+            position: left;
+            opacity: 0;
+            transition: opacity 1s ;
+           
+        
+}
+#paragraph1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    background-color: hsla(0, 0%, 19%, 0.847);
+    padding: 10px; 
+    color: rgb(255, 255, 255);
+}
+
+.backDrop.show{
+    opacity: 100%;
+}
+
+
+
+.subheading{
+    margin-top: 30px;
+    font-family: Arial;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    background-color:  rgb(222, 202, 175/50%);
+    font-size: 50px;
+}
+#londi{
+    color: antiquewhite;
+    font-size: 40px;
+    font-family: Georgia;
+    text-align: center;
+    opacity: 50%;
+}
+
+p{
+    text-align: right;
+    font-size: 40px;
+    background-color: hsla(33, 78%, 91%, 0.229);
+}
+
+.animation1{
+    
+    animation-name: slideLeftRight;
+    animation-duration: 1s;
+    font-size: 70px; 
+    color: hsla(0, 0%, 100%, 0.874); 
+    margin-top: 20px; 
+    margin-left: 15px;
+     overflow: hidden;
+
+
+}
+.animation2{
+    animation-name: slideLeftRight2;
+    animation-duration: 1s;
+    font-size: 40px; 
+    color:hsla(0, 0%, 100%, 0.716);
+     margin-top: -80px;
+     margin-left: 15px
+
+}
+
+
+@keyframes slideLeftRight{
+
+    from{transform:  translateY(-400px);}
+}
+@keyframes slideLeftRight2{
+
+    from{transform:  translateX(-2000px);}
+}
+
+#ContactInfo{
+    opacity: 80%;
+    margin-top: -23px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(6, 6, 6);
+    padding: 30px;
+    border-top: solid 10px rgb(85, 85, 85);
+    text-shadow: 0 0 10px rgba(255, 166, 0, 0.634);
+    
+
+}
+#crazy{
+    margin-bottom: -20px;
+    text-align: left;
+   
+}
+
+
+/* footer */
+
+@keyframes footer_Ani{
+    from{ transform: translateY(200px);}
+}
+.bottomMenu.show{
+    animation-name: footer_Ani ;
+    animation-duration: 2s;
+    opacity: 1;
+}
+.bottomMenu{
+   background-color: rgba(0, 0, 0, 0);
+    padding: 30px; 
+    margin: 20px;
+    z-index: 9995;
+    opacity: 0;
+    
+}
+.bottomMenu  i{
+    margin-top: 50px;
+    margin-left: 10px;
+    color: rgba(255, 166, 0, 0.488);
+    font-size: 20px;
+    
+}
+.bottomMenu i:hover{
+    color: rgb(255, 157, 0);
+    transform: scale(1.2);
+    
+}
+
+.bottomMenu i:active{
+    color: rgb(255, 202, 116);
+    transform: scale(1.5);
+    text-shadow: 0px 0px 7px orange;
+}
+.bottomMenu {
+    margin-bottom: -10px;
+    
+}
+#menuDown{
+    font-size: 25px;
+    color: rgb(255, 115, 0);
+}
+footer{
+    margin-top: -20px;
+}
+#arrowDown{
+    font-size: 15px;
+    color: rgb(72, 72, 72);
+}
