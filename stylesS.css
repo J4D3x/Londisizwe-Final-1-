@@ -114,7 +114,6 @@ p{
     margin: 0px;
     padding-left: 20px;
     text-align: center;
-    height: 420px;
     overflow: auto;
 
    
@@ -321,7 +320,7 @@ main{
 }
 
 .backDrop{
-            background-image: linear-gradient( rgba(0, 0, 0, 0.734),rgba(0, 0, 0, 0.188)), url(construction-workers-sunset.jpg);
+            background-image: linear-gradient( rgba(0, 0, 0, 0.734),rgba(0, 0, 0, 0.188)), url(construction-workers-sunsetOP.jpg);
             background-size: 100%;
             background-repeat: no-repeat;
             background-position: 0px ;
