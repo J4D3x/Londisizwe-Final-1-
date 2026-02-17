@@ -1,4 +1,6 @@
-
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 header{
     position: sticky;
     z-index: 9999 !important;
@@ -337,3 +339,4 @@ color: white;
 footer{
     margin-top: -20px;
 }
+
