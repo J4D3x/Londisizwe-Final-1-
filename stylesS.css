@@ -282,8 +282,7 @@ main{
 }
 
 .animation1{
-    animation-name: slideLeftRight;
-    animation-duration: 2s;
+ 
     font-size: 70px; 
     color: hsla(0, 0%, 100%, 0.874); 
     margin-top: 20px; 
@@ -294,9 +293,9 @@ main{
 }
 .animation2{
     animation-name: slideLeftRight2;
-    animation-duration: 2s;
+    animation-duration: 1s;
     font-size: 40px; 
-    color:hsla(0, 0%, 100%, 0.716);
+    color:hwb(0 100% 0% / 0.716);
      margin-top: -80px;
      margin-left: 15px
 
@@ -419,4 +418,3 @@ main{
 footer{
     margin-top: -20px;
 }
-
