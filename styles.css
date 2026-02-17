@@ -99,25 +99,22 @@ body{
 
 
 .animation1{
-    animation-name: slideLeftRight;
-    animation-duration: 1s;
-    
-    font-size: 90px; 
-    color: hsla(0, 0%, 100%, 0.874);
-     margin-top: 20px; 
-     margin-left: 15px; 
+ 
+    font-size: 70px; 
+    color: hsla(0, 0%, 100%, 0.874); 
+    margin-top: 20px; 
+    margin-left: 15px;
      overflow: hidden;
-      position: relative;
+
 
 }
 .animation2{
     animation-name: slideLeftRight2;
     animation-duration: 1s;
-    font-size: 50px; 
-    color:hsla(0, 0%, 100%, 0.404);
-     margin-top: -100px;
-     margin-left: 15px;
-     position: relative;
+    font-size: 40px; 
+    color:hwb(0 100% 0% / 0.716);
+     margin-top: -80px;
+     margin-left: 15px
 
 }
 
@@ -339,4 +336,5 @@ color: white;
 footer{
     margin-top: -20px;
 }
+
 
